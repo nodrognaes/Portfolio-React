@@ -1,38 +1,229 @@
-.App {
-  text-align: center;
+
+/* Setting custom color vars*/
+:root {
+  --mygray: #2D3047;
+  --myyellow: #E0CA3C;
+  --mylightyellow: #fef9c7;
+  --myteal: #048A81;
+  --mylightblue: #93B7BE;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+html {
+  font-family: 'Compacta';
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Includes title and navbar */
+header {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  height: 76px;
+  background-color: var(--mygray);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  border-bottom: solid 4px var(--myyellow);
+}
+
+#header-img {
+  height: 60px;
+  margin: 0px 5px;
+  border-radius: 90px;
+}
+
+.page-title {
+  margin-right: auto;
+  padding: 5px 10px;
+  display: inline-flex;
+}
+
+.page-title h2 {
+  font-size: 25px;
   color: white;
+  padding: 1px;
 }
 
-.App-link {
-  color: #61dafb;
+.page-title h3 {
+  font-size: 15px;
+  color:rgb(189, 189, 189);
+  margin-top: -3px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+nav {
+  float: right;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.main-nav li {
+  display: inline-block;
+  margin: 30px 10px;
+}
+
+.main-nav li a {
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.main-nav li a:hover {
+  color: var(--mygray);
+  text-decoration: underline black 2px;
+}
+
+.banner {
+  margin-top: 70px;
+  width: 100%;
+  height: 180px;
+  background-color: var(--mylightblue);
+  position: relative
+}
+
+.banner h1 {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  font-size: 32px;
+  color:black;
+}
+
+/*set text color and alignment for full main div*/
+main {
+  text-align: center;
+  color: var(--myteal);
+  padding: 40px 90px;
+}
+
+main h2 {
+  color: black;
+  font-size: 20px;
+  padding: 20px 0px;
+}
+
+main article {
+  padding: 20px;
+}
+
+#about-me {
+  padding: 20px 120px;
+  font-size: 20px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.first-proj {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.first-proj .card {
+  position: relative;
+  border: 5px solid var(--myteal);
+  border-radius: 8px;
+  margin: 10px 10px;
+  max-height: 280px;
+  max-width: 50%;
+}
+
+.other {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.other .card{
+  position: relative;
+  max-height: 150px;
+  max-width: 18%;
+  border: 5px solid var(--myteal);
+  border-radius: 8px;
+  margin: 10px 10px;
+  flex: 1;
+}
+
+.card img {
+  opacity: 0.5;
+  height: 100%;
+  width: 100%;
+  min-width: 30%;
+}
+
+/*background image will appear lighter until hovered over*/
+.card img:hover {
+  opacity: 1.0;
+  box-shadow: 0 0 8px rgba(0, 38, 70, 0.6)
+}
+
+/*Placing headings over project image bottom left corners */
+.card h3 {
+  position: absolute;
+  bottom: -8px;
+  left: 0px;
+  background-color: var(--myyellow);
+  padding: 12px 12px;
+  border-top-right-radius: 8px;
+  font-size: 16px;
+}
+
+#contact li {
+  list-style-type: none;
+  text-align: center;
+  padding: 8px;
+  font-size: 18px;
+}
+
+#contact .icon {
+  display: inline-block;
+  padding: 10px 4px 0px;
+}
+
+footer {
+  text-align: center;
+  font-size: 15px;
+  color: rgb(189, 189, 189);
+  padding: 7px;
+  background-color: var(--myteal);
+  border-top: 4px solid var(--myyellow);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+}
+
+
+
+/* Media Queries for resizing screen*/
+@media only screen and (max-width: 700px) {
+  header {
+      height: 120px;
+      flex-direction: column;
   }
-  to {
-    transform: rotate(360deg);
+
+  /*bring nav bar below page title*/
+  .main-nav li {
+      margin: 10px 30px;
+  }
+
+  /*make text smaller on smaller screens*/
+  #about-me {
+      font-size: 18px;
+      padding: 20px 50px;
+  }
+
+  .first-proj .card {
+      max-height: 200px;
   }
 }
