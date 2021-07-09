@@ -1,4 +1,3 @@
-
 /* Setting custom color vars*/
 :root {
   --mygray: #2D3047;
@@ -73,7 +72,7 @@ nav {
 }
 
 .main-nav li a:hover {
-  color: var(--mygray);
+  color: rgb(189, 189, 189);
   text-decoration: underline black 2px;
 }
 
