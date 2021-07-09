@@ -6,7 +6,7 @@ function Header() {
     <header>
         <section class="page-title">
             <img id="header-img" 
-            src="assets/images/unnamed.jpg" 
+            src="../images/unnamed.jpg" 
             alt="Header Photo" />
             <div>
                 <h2>Sean Gordon</h2>
@@ -18,6 +18,7 @@ function Header() {
                 <li><a href="#about-me">About Me</a></li>
                 <li><a href="#my-work">My Work</a></li>
                 <li><a href="#contact">Contact</a></li>
+                <li><a href="#resume">Resume</a></li>
             </ul>
         </nav>
     </header>

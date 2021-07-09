@@ -13,13 +13,13 @@ function Navigation({ handlePageChange }) {
       </li>
       <li className="nav-item">
         <a
-          href="#blog"
-          onClick={() => handlePageChange('My Work')}
+          href="#my-work"
+          onClick={() => handlePageChange('Work')}
         >
           My Work
         </a>
       </li>
-      <li className="nav-item">
+      <li id="contact">
         <a
           href="#contact"
           onClick={() => handlePageChange('Contact')}
