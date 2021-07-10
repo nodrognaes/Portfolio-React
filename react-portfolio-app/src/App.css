@@ -79,8 +79,8 @@ nav {
 .banner {
   margin-top: 70px;
   width: 100%;
-  height: 130px;
-  background-color: rgb(189, 189, 189);
+  height: 90px;
+  background-color: var(--myyellow);
   position: relative
 }
 
@@ -113,7 +113,7 @@ main article {
 #about-me {
   padding: 20px 22%;
   font-size: 20px;
-  margin-top: -90px;
+  margin-top: -30px;
 }
 
 .proj-container {
@@ -216,6 +216,7 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
+  height: 30px;
 }
 
 
