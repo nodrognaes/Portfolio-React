@@ -124,9 +124,9 @@ main article {
 
 .proj-container figure {
   display: flex; 
-  margin: 15px 15px;
-  height: 200px;
-  max-width: 400px;
+  margin: 25px 15px;
+  height: 225px;
+  max-width: 375px;
 }
 
 .proj-container .card {
@@ -238,7 +238,8 @@ footer {
       padding: 20px 50px;
   }
 
-  .first-proj .card {
+  .card {
       max-height: 200px;
+      min-width: 300px;
   }
 }
