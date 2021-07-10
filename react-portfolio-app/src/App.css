@@ -97,7 +97,7 @@ main {
   text-align: center;
   color: var(--myteal);
   padding: 40px 90px;
-  margin-top: 76px;
+  margin-top: 50px;
 }
 
 main h2 {
@@ -107,58 +107,38 @@ main h2 {
 }
 
 main article {
-  padding: px;
+  padding: 10px;
 }
 
 #about-me {
   padding: 20px 22%;
   font-size: 20px;
-  margin-top: -65px;
+  margin-top: -90px;
 }
 
-.container {
+.proj-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  flex-direction: column;
+  justify-content: space-around;
 }
 
-.first-proj {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+.proj-container figure {
+  display: flex; 
+  margin: 15px 15px;
+  height: 200px;
+  max-width: 400px;
 }
 
-.first-proj .card {
+.proj-container .card {
   position: relative;
   border: 5px solid var(--myteal);
   border-radius: 8px;
-  margin: 10px 10px;
-  max-height: 280px;
-  max-width: 50%;
 }
 
-.other {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.other .card{
-  position: relative;
-  max-height: 150px;
-  max-width: 18%;
-  border: 5px solid var(--myteal);
-  border-radius: 8px;
-  margin: 10px 10px;
-  flex: 1;
-}
-
-.card img {
+.proj-ss {
   opacity: 0.5;
   height: 100%;
   width: 100%;
-  min-width: 30%;
 }
 
 /*background image will appear lighter until hovered over*/
@@ -176,6 +156,41 @@ main article {
   padding: 12px 12px;
   border-top-right-radius: 8px;
   font-size: 16px;
+}
+
+.proj-gh {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+#contact form {
+  padding: 15px;
+  background-color: var(--myyellow);
+  border: 2px;
+  border-radius: 8px;
+  width: 350px;
+  margin: auto;
+}
+
+#contact div {
+  padding: 3px;
+}
+
+#contact input {
+  height: 25px;
+  margin: 3px;
+}
+
+#message {
+  height: 100px;
+  width: 280px;
+  margin: 5px;
+}
+
+#contact h4 {
+  padding: 20px 0px 10px;
+  color: black;
 }
 
 #contact li {
