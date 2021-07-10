@@ -1,42 +1,34 @@
-import React from 'react';
+import React, { useState } from 'react';
+import Header from './Header';
+import About from '../pages/About';
+import Resume from '../pages/Resume';
+import Contact from '../pages/Contact';
+import Work from '../pages/Work';
+import '../App.css'
 
-function Navigation({ handlePageChange }) {
+export default function Project() {
+  const [currentPage, setCurrentPage] = useState('About');
+
+  // This method is checking to see what the value of `currentPage` is. Depending on the value of currentPage, we return the corresponding component to render.
+  const renderPage = () => {
+    if (currentPage === 'About') {
+      return <About />;
+    }
+    if (currentPage === 'Work') {
+      return <Work />;
+    }
+    if (currentPage === 'Contact') {
+        return <Contact />;
+      }
+    return <Resume />;
+  };
+
+  const handlePageChange = (page) => setCurrentPage(page);
+
   return (
-    <ul className="nav nav-tabs">
-      <li className="nav-item">
-        <a
-          href="#about"
-          onClick={() => handlePageChange('About')}
-        >
-          About Me
-        </a>
-      </li>
-      <li className="nav-item">
-        <a
-          href="#my-work"
-          onClick={() => handlePageChange('Work')}
-        >
-          My Work
-        </a>
-      </li>
-      <li id="contact">
-        <a
-          href="#contact"
-          onClick={() => handlePageChange('Contact')}
-        >
-          Contact
-        </a>
-      </li>
-      <li className="nav-item">
-        <a
-          href="#resume"
-          onClick={() => handlePageChange('Resume')}
-        >
-          Resume
-        </a>
-      </li>
-    </ul>
+    <div>
+      <Header currentPage={currentPage} handlePageChange={handlePageChange} />
+      {renderPage()}
+    </div>
   );
 }
-
-export default Navigation;
