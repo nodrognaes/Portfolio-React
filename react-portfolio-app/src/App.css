@@ -124,15 +124,15 @@ main article {
 
 .proj-container figure {
   display: flex; 
-  margin: 25px 15px;
+  margin: 25px 10px;
   height: 225px;
-  max-width: 375px;
+  max-width: 370px;
 }
 
 .proj-container .card {
   position: relative;
   border: 5px solid var(--myteal);
-  border-radius: 8px;
+  border-radius: 10px;
 }
 
 .proj-ss {
@@ -160,8 +160,8 @@ main article {
 
 .proj-gh {
   position: absolute;
-  bottom: 0px;
-  right: 0px;
+  bottom: 1px;
+  right: 2px;
 }
 
 #contact form {
@@ -169,6 +169,7 @@ main article {
   background-color: var(--myyellow);
   border: 2px;
   border-radius: 8px;
+  height: 325px;
   width: 350px;
   margin: auto;
 }
@@ -179,11 +180,12 @@ main article {
 
 #contact input {
   height: 25px;
+  width: 215px;
   margin: 3px;
 }
 
 #message {
-  height: 100px;
+  height: 125px;
   width: 280px;
   margin: 5px;
 }
@@ -206,13 +208,17 @@ main article {
 }
 
 #resumeimg {
-  height: 380px;
+  margin: 50px 0px 5px;
+  height: 325px;
+  width: 250px;
   border: solid 5px darkblue;
-  border-radius: 8px;
+  border-radius: 10px;
+  opacity: 0.75;
 }
 
 #resumeimg:hover {
-  box-shadow: 0 0 5px rgba(0, 38, 70, 0.6);
+  opacity: 1.0;
+  box-shadow: 0 0 10px rgba(0, 28, 51, 0.6);
 }
 
 footer {
