@@ -1,5 +1,7 @@
 import React from 'react';
 import '../App.css';
+import resume from '../resume.pdf';
+import img from '../images/resumeimg.PNG';
 
 class DownloadLink extends React.Component {
     render() {
@@ -14,7 +16,7 @@ export default function Resume() {
     <main>
         <div className="resume">
             <h2>- Resume -</h2>
-            <DownloadLink src="../../public/resume.pdf">Click to download</DownloadLink>
+            <DownloadLink src={resume}><img id="resumeimg" src={img} /><br />Click to download</DownloadLink>
         </div>
     </main>
   );

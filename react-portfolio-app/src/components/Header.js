@@ -1,12 +1,13 @@
 import React from 'react';
 import '../App.css';
+import headerPhoto from '../images/unnamed.jpg'
 
 export default function Header({ handlePageChange }) {
   return (
     <header>
         <section class="page-title">
             <img id="header-img" 
-            src="../images/unnamed.jpg" 
+            src={headerPhoto}
             alt="Header Photo" />
             <div>
                 <h2>Sean Gordon</h2>
