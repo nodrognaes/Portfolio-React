@@ -144,7 +144,7 @@ main article {
 /*background image will appear lighter until hovered over*/
 .card img:hover {
   opacity: 1.0;
-  box-shadow: 0 0 8px rgba(0, 38, 70, 0.6)
+  box-shadow: 0 0 10px rgba(0, 38, 70, 0.6)
 }
 
 /*Placing headings over project image bottom left corners */
@@ -209,7 +209,7 @@ main article {
 
 #resumeimg {
   margin: 40px 0px 5px;
-  height: 325px;
+  height: 310px;
   width: 250px;
   border: solid 5px darkblue;
   border-radius: 10px;
