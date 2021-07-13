@@ -1,7 +1,7 @@
 /* Setting custom color vars*/
 :root {
   --mygray: #2D3047;
-  --myyellow: #ffe437;
+  --myyellow: #e9d136;
   --mylightyellow: #fef9c7;
   --myteal: #048A81;
   --mylightblue: #93B7BE;
@@ -143,8 +143,11 @@ main article {
 
 /*background image will appear lighter until hovered over*/
 .card:hover {
-  opacity: 1.0;
   box-shadow: 0 0 8px rgba(0, 38, 70, 0.6)
+}
+
+.card img:hover {
+  opacity: 1.0;
 }
 
 /*Placing headings over project image bottom left corners */
