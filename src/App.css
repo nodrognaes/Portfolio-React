@@ -20,7 +20,7 @@ html {
 header {
   display: flex;
   height: 76px;
-  background-image: ;
+  background-color: var(--mydarkblue);
   position: fixed;
   top: 0;
   width: 100%;
