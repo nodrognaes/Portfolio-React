@@ -10,7 +10,7 @@ The URL to my deployed portfolio is linked below, but the app can also be viewed
 
 # Demo: #
 
-
+![portfolio](https://user-images.githubusercontent.com/48900910/125373343-f6a89980-e352-11eb-8993-ecf6c66596b6.gif)
 
 # Deployed link: #
 
