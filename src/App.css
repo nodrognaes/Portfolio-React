@@ -1,9 +1,9 @@
 /* Setting custom color vars*/
 :root {
-  --mygray: #2D3047;
+  --mygray: rgb(99, 99, 99);
   --myyellow: #e9d136;
   --mylightyellow: #fef9c7;
-  --myteal: #048A81;
+  --mydarkblue: #2D3047;
   --mylightblue: #93B7BE;
 }
 
@@ -20,7 +20,7 @@ html {
 header {
   display: flex;
   height: 76px;
-  background-color: var(--mygray);
+  background-image: ;
   position: fixed;
   top: 0;
   width: 100%;
@@ -95,7 +95,7 @@ nav {
 /*set text color and alignment for full main div*/
 main {
   text-align: center;
-  color: var(--myteal);
+  color: var(--mydarkblue);
   padding: 40px 90px 70px;
   margin-top: 50px;
 }
@@ -131,7 +131,7 @@ main article {
 
 .proj-container .card {
   position: relative;
-  border: 5px solid var(--myteal);
+  border: 5px solid var(--mydarkblue);
   border-radius: 10px;
 }
 
@@ -170,7 +170,7 @@ main article {
 #contact form {
   padding: 15px;
   background-color: var(--myyellow);
-  border: 2px;
+  border: solid var(--mydarkblue) 1px;
   border-radius: 8px;
   height: 325px;
   width: 350px;
@@ -226,16 +226,16 @@ main article {
 
 footer {
   text-align: center;
-  font-size: 15px;
+  font-size: 14px;
   color: white;
   padding: 10px;
-  background-color: var(--myteal);
+  background-color: var(--mydarkblue);
   border-top: 4px solid var(--myyellow);
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-  height: 28px;
+  height: 20px;
 }
 
 
