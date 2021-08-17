@@ -111,9 +111,16 @@ main article {
 }
 
 #about-me {
-  padding: 20px 25%;
+  padding: 20px 10%;
   font-size: 20px;
   margin-top: -50px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 800px;
+}
+
+#about-me h2 {
+  margin-bottom: 10px;
 }
 
 .proj-container {
@@ -133,11 +140,11 @@ main article {
   position: relative;
   border: 5px solid var(--mydarkblue);
   border-radius: 10px;
+  overflow: hidden;
 }
 
 .proj-ss {
   opacity: 0.5;
-  height: 100%;
   width: 100%;
 }
 
