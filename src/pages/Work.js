@@ -52,12 +52,12 @@ export default function Contact() {
                         <a href="https://github.com/nodrognaes/Trivia_Game" target="_blank"><img className="proj-gh" src={ghlogo} alt="github icon" width="30" height="30" /></a>
                     </figure>
                     <figure className="card" id="proj7">
-                        <a href="https://nodrognaes.github.io/colmaracademy/" target="_blank"><img className="proj-ss" src={colmar} alt="Colmar" /></a>
+                        <a href="https://nodrognaes.github.io/ColmarAcademy/" target="_blank"><img className="proj-ss" src={colmar} alt="Colmar" /></a>
                         <h3>Colmar Academy (demo)</h3>
                         <a href="https://github.com/nodrognaes/ColmarAcademy" target="_blank"><img className="proj-gh" src={ghlogo} alt="github icon" width="30" height="30" /></a>
                     </figure>
                     <figure className="card" id="proj8">
-                        <a href="https://nodrognaes.github.io/tortoiseshelloptics/" target="_blank"><img className="proj-ss" src={torta} alt="Tortoiseshell Optics" /></a>
+                        <a href="https://nodrognaes.github.io/TortoiseshellOptics/" target="_blank"><img className="proj-ss" src={torta} alt="Tortoiseshell Optics" /></a>
                         <h3>Tortoiseshell Optics (demo)</h3>
                         <a href="https://github.com/nodrognaes/TortoiseshellOptics" target="_blank"><img className="proj-gh" src={ghlogo} alt="github icon" width="30" height="30" /></a>
                     </figure>
