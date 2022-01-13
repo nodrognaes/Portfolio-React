@@ -111,18 +111,34 @@ main article {
 }
 
 #about-me {
-  padding: 20px 10%;
+  padding: 20px;
   font-size: 20px;
   margin-top: -50px;
   margin-right: auto;
   margin-left: auto;
-  max-width: 800px;
+  max-width: 900px;
 }
 
 #about-me h2 {
   margin-bottom: 10px;
 }
 
+.about-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-cont p {
+  padding: 50px;
+}
+
+/* #about-img {
+  height: 300px;
+  border-radius: 3px;
+} */
+
+/*work*/
 .proj-container {
   display: flex;
   flex-wrap: wrap;
@@ -132,15 +148,15 @@ main article {
 .proj-container figure {
   display: flex; 
   margin: 25px 10px;
-  height: 225px;
-  max-width: 370px;
+  height: 235px;
+  max-width: 355px;
 }
 
 .proj-container .card {
   position: relative;
   border: 5px solid var(--mydarkblue);
   border-radius: 10px;
-  width: 500px;
+
   overflow: hidden;
 }
 

@@ -10,6 +10,9 @@ import triviaimg from '../images/ss2.PNG'
 import catgameimg from '../images/FWaUbZI.png'
 import booksearchimg from '../images/bs.PNG'
 import ecomredux from '../images/ecomredux.PNG'
+import eight from '../images/8ball.png';
+import colmar from '../images/colmar.png';
+import torta from '../images/torta.png';
 
 export default function Contact() {
     return (
@@ -21,6 +24,7 @@ export default function Contact() {
                         <a href="https://jammminsg.herokuapp.com/" target="_blank"><img className="proj-ss" src={jammmimg} alt="Jammmin" /></a>
                         <h3>Jammmin</h3>
                         <a href="https://github.com/nodrognaes/Jammmin" target="_blank"><img className="proj-gh" src={ghlogo} alt="github icon" width="30" height="30" /></a>
+                        {/* <p>Music search engine to create playlists and add to</p> */}
                     </figure>
                     <figure className="card" id="proj2">
                         <a href="https://floating-river-78697.herokuapp.com/" target="_blank"><img className="proj-ss" src={booksearchimg} alt="Book Search" /></a>
@@ -42,10 +46,25 @@ export default function Contact() {
                         <h3>Tech Blog</h3>
                         <a href="https://github.com/nodrognaes/TechBlog" target="_blank"><img className="proj-gh" src={ghlogo} alt="github icon" width="30" height="30" /></a>
                     </figure>
-                    <figure className="card" id="proj7">
-                        <a className="proj-ss" href="https://nodrognaes.github.io/Trivia_Game/" target="_blank"><img className="proj-ss" src={triviaimg} alt="Trivia Game" /></a>
+                    <figure className="card" id="proj5">
+                        <a href="https://nodrognaes.github.io/Trivia_Game/" target="_blank"><img className="proj-ss" src={triviaimg} alt="Trivia Game" /></a>
                         <h3>Trivia Game</h3>
                         <a href="https://github.com/nodrognaes/Trivia_Game" target="_blank"><img className="proj-gh" src={ghlogo} alt="github icon" width="30" height="30" /></a>
+                    </figure>
+                    <figure className="card" id="proj7">
+                        <a href="https://nodrognaes.github.io/colmaracademy/" target="_blank"><img className="proj-ss" src={colmar} alt="Colmar" /></a>
+                        <h3>Colmar Academy (demo)</h3>
+                        <a href="https://github.com/nodrognaes/ColmarAcademy" target="_blank"><img className="proj-gh" src={ghlogo} alt="github icon" width="30" height="30" /></a>
+                    </figure>
+                    <figure className="card" id="proj8">
+                        <a href="https://nodrognaes.github.io/tortoiseshelloptics/" target="_blank"><img className="proj-ss" src={torta} alt="Tortoiseshell Optics" /></a>
+                        <h3>Tortoiseshell Optics (demo)</h3>
+                        <a href="https://github.com/nodrognaes/TortoiseshellOptics" target="_blank"><img className="proj-gh" src={ghlogo} alt="github icon" width="30" height="30" /></a>
+                    </figure>
+                    <figure className="card" id="proj6">
+                        <a href="https://nodrognaes.github.io/8ball/" target="_blank"><img className="proj-ss" src={eight} alt="8ball" /></a>
+                        <h3>Magic 8ball</h3>
+                        <a href="https://github.com/nodrognaes/8ball" target="_blank"><img className="proj-gh" src={ghlogo} alt="github icon" width="30" height="30" /></a>
                     </figure>
                 </section>
                 <p id="gh-link">Please see my <a href="https://github.com/nodrognaes" target="_blank">Github</a>  page for more!</p>
