@@ -34,14 +34,6 @@ export default function Header({ handlePageChange }) {
           My Work
         </a>
       </li>
-      <li id="contact">
-        <a
-          href="#contact"
-          onClick={() => handlePageChange('Contact')}
-        >
-          Contact
-        </a>
-      </li>
       <li className="nav-item">
         <a
           href="#resume"

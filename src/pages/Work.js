@@ -56,6 +56,7 @@ export default function Contact() {
                     <h3>Cat and Mouse Game</h3>
                 </figure>
             </section>
+            <p id="gh-link">Please see my <a href="https://github.com/nodrognaes" target="_blank">Github</a>  page for more!</p>
         </article>
     </main>
   );

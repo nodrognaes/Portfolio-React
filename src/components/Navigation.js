@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Header from './Header';
 import About from '../pages/About';
 import Resume from '../pages/Resume';
-import Contact from '../pages/Contact';
+// import Contact from '../pages/Contact';
 import Work from '../pages/Work';
 import '../App.css'
 
@@ -17,9 +17,6 @@ export default function Project() {
     if (currentPage === 'Work') {
       return <Work />;
     }
-    if (currentPage === 'Contact') {
-        return <Contact />;
-      }
     return <Resume />;
   };
 

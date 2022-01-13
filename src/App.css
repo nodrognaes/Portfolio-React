@@ -79,7 +79,7 @@ nav {
 .banner {
   margin-top: 70px;
   width: 100%;
-  height: 125px;
+  height: 150px;
   background-color: var(--myyellow);
   position: relative
 }
@@ -97,7 +97,7 @@ main {
   text-align: center;
   color: var(--mydarkblue);
   padding: 40px 90px 70px;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 main h2 {
@@ -150,6 +150,10 @@ main article {
   height: 100%;
 }
 
+#gh-link {
+  margin-top: 20px;
+}
+
 /*background image will appear lighter until hovered over*/
 .card:hover {
   box-shadow: 0 0 8px rgba(0, 38, 70, 0.6)
@@ -175,6 +179,8 @@ main article {
   bottom: 1px;
   right: 2px;
   opacity: 0.5;
+  transition-property: opacity;
+  transition-duration: 0.5s;
 }
 
 .proj-gh:hover {
