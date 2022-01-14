@@ -53,12 +53,12 @@ export default function Contact() {
                     </figure>
                     <figure className="card" id="proj7">
                         <a href="https://nodrognaes.github.io/ColmarAcademy/" target="_blank"><img className="proj-ss" src={colmar} alt="Colmar" /></a>
-                        <h3>Colmar Academy (demo)</h3>
+                        <h3>Colmar Academy (layout demo)</h3>
                         <a href="https://github.com/nodrognaes/ColmarAcademy" target="_blank"><img className="proj-gh" src={ghlogo} alt="github icon" width="30" height="30" /></a>
                     </figure>
                     <figure className="card" id="proj8">
                         <a href="https://nodrognaes.github.io/TortoiseshellOptics/" target="_blank"><img className="proj-ss" src={torta} alt="Tortoiseshell Optics" /></a>
-                        <h3>Tortoiseshell Optics (demo)</h3>
+                        <h3>Tortoiseshell Optics (responsive demo)</h3>
                         <a href="https://github.com/nodrognaes/TortoiseshellOptics" target="_blank"><img className="proj-gh" src={ghlogo} alt="github icon" width="30" height="30" /></a>
                     </figure>
                     <figure className="card" id="proj6">
