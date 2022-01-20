@@ -15,7 +15,7 @@ export default function About() {
           <h2>- About Me -</h2>
           <div className="about-cont">
             <p>
-                Hi! My name is Sean, and I am a full-stack web developer with a specific interest in web design. I'm a recent graduate of a coding bootcamp program through Rutgers University where I created web applications using CSS, Javascript, MERN, etc. While I am new to the field, I am excited to continue learning and growing as a developer!
+                Hi! My name is Sean, and I am a full-stack web developer with a specific interest in web design. I'm a recent graduate of Rutgers University's coding bootcamp where I created web applications using CSS, Javascript, MERN, etc. While I am new to the field, I am excited to continue learning and growing as a developer!
                 <br />
                 <br />
                 I currently live in southern New Jersey. Hobbies include music, film, photography, and disc golf. More content to come...
