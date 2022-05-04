@@ -133,10 +133,10 @@ main article {
   padding: 50px;
 }
 
-/* #about-img {
-  height: 300px;
-  border-radius: 3px;
-} */
+#about-img {
+  height: 350px;
+  border-radius: 100px 5px;
+}
 
 /*work*/
 .proj-container {
@@ -170,7 +170,6 @@ main article {
   margin-top: 20px;
 }
 
-/*background image will appear lighter until hovered over*/
 .card:hover {
   box-shadow: 0 0 8px rgba(0, 38, 70, 0.6)
 }

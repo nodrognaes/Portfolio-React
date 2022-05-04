@@ -20,7 +20,7 @@ export default function About() {
                 <br />
                 I currently live in southern New Jersey. Hobbies include music, film, photography, and disc golf. More content to come...
             </p>
-            {/* <img id="about-img" src={me}></img> */}
+            <img id="about-img" src={me}></img>
           </div>   
         </div>
         <div id="contact">
