@@ -13,6 +13,7 @@ import ecomredux from '../images/ecomredux.PNG'
 import eight from '../images/8ball.png';
 import colmar from '../images/colmar.png';
 import torta from '../images/torta.png';
+import limitless from '../images/limitless.png';
 
 export default function Contact() {
     return (
@@ -20,9 +21,23 @@ export default function Contact() {
             <article id="my-work">
                 <h2>- Projects -</h2>
                 <section className="proj-container">
-                    <figure className="card" id="proj0">
+                <figure className="card" id="proj0">
+                        <a href="https://www.limitlessyoga.org/" target="_blank"><img className="proj-ss" src={limitless} alt="Limitless Yoga" /></a>
+                        <h3>Limitless Yoga (Squarespace demo)</h3>
+                    </figure>
+                    <figure className="card" id="proj7">
+                        <a href="https://nodrognaes.github.io/ColmarAcademy/" target="_blank"><img className="proj-ss" src={colmar} alt="Colmar" /></a>
+                        <h3>Colmar Academy (layout demo)</h3>
+                        <a href="https://github.com/nodrognaes/ColmarAcademy" target="_blank"><img className="proj-gh" src={ghlogo} alt="github icon" width="30" height="30" /></a>
+                    </figure>
+                    <figure className="card" id="proj8">
+                        <a href="https://nodrognaes.github.io/TortoiseshellOptics/" target="_blank"><img className="proj-ss" src={torta} alt="Tortoiseshell Optics" /></a>
+                        <h3>Tortoiseshell Optics (responsive demo)</h3>
+                        <a href="https://github.com/nodrognaes/TortoiseshellOptics" target="_blank"><img className="proj-gh" src={ghlogo} alt="github icon" width="30" height="30" /></a>
+                    </figure>
+                    <figure className="card" id="proj1">
                         <a href="https://jammminsg.herokuapp.com/" target="_blank"><img className="proj-ss" src={jammmimg} alt="Jammmin" /></a>
-                        <h3>Jammmin</h3>
+                        <h3>Jammmin (Spotify login required)</h3>
                         <a href="https://github.com/nodrognaes/Jammmin" target="_blank"><img className="proj-gh" src={ghlogo} alt="github icon" width="30" height="30" /></a>
                         {/* <p>Music search engine to create playlists and add to</p> */}
                     </figure>
@@ -50,16 +65,6 @@ export default function Contact() {
                         <a href="https://nodrognaes.github.io/Trivia_Game/" target="_blank"><img className="proj-ss" src={triviaimg} alt="Trivia Game" /></a>
                         <h3>Trivia Game</h3>
                         <a href="https://github.com/nodrognaes/Trivia_Game" target="_blank"><img className="proj-gh" src={ghlogo} alt="github icon" width="30" height="30" /></a>
-                    </figure>
-                    <figure className="card" id="proj7">
-                        <a href="https://nodrognaes.github.io/ColmarAcademy/" target="_blank"><img className="proj-ss" src={colmar} alt="Colmar" /></a>
-                        <h3>Colmar Academy (layout demo)</h3>
-                        <a href="https://github.com/nodrognaes/ColmarAcademy" target="_blank"><img className="proj-gh" src={ghlogo} alt="github icon" width="30" height="30" /></a>
-                    </figure>
-                    <figure className="card" id="proj8">
-                        <a href="https://nodrognaes.github.io/TortoiseshellOptics/" target="_blank"><img className="proj-ss" src={torta} alt="Tortoiseshell Optics" /></a>
-                        <h3>Tortoiseshell Optics (responsive demo)</h3>
-                        <a href="https://github.com/nodrognaes/TortoiseshellOptics" target="_blank"><img className="proj-gh" src={ghlogo} alt="github icon" width="30" height="30" /></a>
                     </figure>
                     <figure className="card" id="proj6">
                         <a href="https://nodrognaes.github.io/8ball/" target="_blank"><img className="proj-ss" src={eight} alt="8ball" /></a>
