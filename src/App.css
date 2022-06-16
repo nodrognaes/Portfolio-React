@@ -156,7 +156,6 @@ main article {
   position: relative;
   border: 5px solid var(--mydarkblue);
   border-radius: 10px;
-
   overflow: hidden;
 }
 
