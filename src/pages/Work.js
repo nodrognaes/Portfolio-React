@@ -14,6 +14,7 @@ import eight from '../images/8ball.png';
 import colmar from '../images/colmar.png';
 import torta from '../images/torta.png';
 import limitless from '../images/limitless.png';
+import wordts from '../images/wordts.png';
 
 export default function Contact() {
     return (
@@ -21,7 +22,12 @@ export default function Contact() {
             <article id="my-work">
                 <h2>- Projects -</h2>
                 <section className="proj-container">
-                <figure className="card" id="proj0">
+                    <figure className="card" id="proj10">
+                        <a href="https://wordts.herokuapp.com/" target="_blank"><img className="proj-ss" src={wordts} alt="Colmar" /></a>
+                        <h3>Wordts - word game</h3>
+                        <a href="https://github.com/nodrognaes/Wordts" target="_blank"><img className="proj-gh" src={ghlogo} alt="github icon" width="30" height="30" /></a>
+                    </figure>
+                    <figure className="card" id="proj0">
                         <a href="https://www.limitlessyoga.org/" target="_blank"><img className="proj-ss" src={limitless} alt="Limitless Yoga" /></a>
                         <h3>Limitless Yoga (Squarespace demo)</h3>
                     </figure>
@@ -46,7 +52,7 @@ export default function Contact() {
                         <h3>Book Search</h3>
                         <a href="https://github.com/nodrognaes/book2" target="_blank"><img className="proj-gh" src={ghlogo} alt="github icon" width="30" height="30" /></a>
                     </figure>
-                    <figure className="card" id="proj1">
+                    <figure className="card" id="proj9">
                         <a href="https://watchub-jbs.herokuapp.com/" target="_blank"><img className="proj-ss" src={watchhubimg} alt="Watch Hub" /></a>
                         <h3>Watch Hub</h3>
                         <a href="https://github.com/nodrognaes/WatchHub" target="_blank"><img className="proj-gh" src={ghlogo} alt="github icon" width="30" height="30" /></a>
