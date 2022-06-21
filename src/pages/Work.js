@@ -22,19 +22,19 @@ export default function Contact() {
             <article id="my-work">
                 <h2>- Projects -</h2>
                 <section className="proj-container">
-                    <figure className="card" id="proj10">
-                        <a href="https://wordts.herokuapp.com/" target="_blank"><img className="proj-ss" src={wordts} alt="Colmar" /></a>
-                        <h3>Wordts - word game</h3>
-                        <a href="https://github.com/nodrognaes/Wordts" target="_blank"><img className="proj-gh" src={ghlogo} alt="github icon" width="30" height="30" /></a>
+                    <figure className="card" id="proj7">
+                        <a href="https://nodrognaes.github.io/ColmarAcademy/" target="_blank"><img className="proj-ss" src={colmar} alt="Colmar" /></a>
+                        <h3>Colmar Academy (layout demo)</h3>
+                        <a href="https://github.com/nodrognaes/ColmarAcademy" target="_blank"><img className="proj-gh" src={ghlogo} alt="github icon" width="30" height="30" /></a>
                     </figure>
                     <figure className="card" id="proj0">
                         <a href="https://www.limitlessyoga.org/" target="_blank"><img className="proj-ss" src={limitless} alt="Limitless Yoga" /></a>
                         <h3>Limitless Yoga (Squarespace demo)</h3>
                     </figure>
-                    <figure className="card" id="proj7">
-                        <a href="https://nodrognaes.github.io/ColmarAcademy/" target="_blank"><img className="proj-ss" src={colmar} alt="Colmar" /></a>
-                        <h3>Colmar Academy (layout demo)</h3>
-                        <a href="https://github.com/nodrognaes/ColmarAcademy" target="_blank"><img className="proj-gh" src={ghlogo} alt="github icon" width="30" height="30" /></a>
+                    <figure className="card" id="proj10">
+                        <a href="https://wordts.herokuapp.com/" target="_blank"><img className="proj-ss" src={wordts} alt="Colmar" /></a>
+                        <h3>Wordts - word game</h3>
+                        <a href="https://github.com/nodrognaes/Wordts" target="_blank"><img className="proj-gh" src={ghlogo} alt="github icon" width="30" height="30" /></a>
                     </figure>
                     <figure className="card" id="proj8">
                         <a href="https://nodrognaes.github.io/TortoiseshellOptics/" target="_blank"><img className="proj-ss" src={torta} alt="Tortoiseshell Optics" /></a>

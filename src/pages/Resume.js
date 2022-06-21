@@ -22,8 +22,8 @@ export default function Resume() {
             <br />
             <br />
             <a href="https://docs.google.com/document/d/1KWwjtTPQsxPEF748a4Niun8k49PfmHEw5plewp7zZtU/edit?usp=sharing" target=" ">
-                Click to view on Google Docs or
-            </a>
+                Click to view on Google Docs
+            </a> <p>or</p>
             <DownloadLink src={resume}>Download PDF</DownloadLink>
         </div>
     </main>
