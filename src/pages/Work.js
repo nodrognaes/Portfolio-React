@@ -4,10 +4,8 @@ import ghlogo from '../images/3345023101530077752-512.png'
 import jammmimg from '../images/jammmin.png';
 import watchhubimg from '../images/watchhub.PNG'
 import techblogimg from '../images/techblog.PNG'
-import notetakerimg from '../images/notetaker.PNG'
-import wdsimg from '../images/scheduler.png'
+import calc from '../images/calc.png'
 import triviaimg from '../images/ss2.PNG'
-import catgameimg from '../images/FWaUbZI.png'
 import booksearchimg from '../images/bs.PNG'
 import ecomredux from '../images/ecomredux.PNG'
 import eight from '../images/8ball.png';
@@ -22,11 +20,6 @@ export default function Contact() {
             <article id="my-work">
                 <h2>- Projects -</h2>
                 <section className="proj-container">
-                    <figure className="card" id="proj7">
-                        <a href="https://nodrognaes.github.io/ColmarAcademy/" target="_blank"><img className="proj-ss" src={colmar} alt="Colmar" /></a>
-                        <h3>Colmar Academy (layout demo)</h3>
-                        <a href="https://github.com/nodrognaes/ColmarAcademy" target="_blank"><img className="proj-gh" src={ghlogo} alt="github icon" width="30" height="30" /></a>
-                    </figure>
                     <figure className="card" id="proj0">
                         <a href="https://www.limitlessyoga.org/" target="_blank"><img className="proj-ss" src={limitless} alt="Limitless Yoga" /></a>
                         <h3>Limitless Yoga (Squarespace demo)</h3>
@@ -35,6 +28,16 @@ export default function Contact() {
                         <a href="https://wordts.herokuapp.com/" target="_blank"><img className="proj-ss" src={wordts} alt="Colmar" /></a>
                         <h3>Wordts - word game</h3>
                         <a href="https://github.com/nodrognaes/Wordts" target="_blank"><img className="proj-gh" src={ghlogo} alt="github icon" width="30" height="30" /></a>
+                    </figure>
+                    <figure className="card" id="proj11">
+                        <a href="https://calcsg.herokuapp.com/" target="_blank"><img className="proj-ss" src={calc} alt="Calc" /></a>
+                        <h3>Calc - calculator/hidden game</h3>
+                        <a href="https://github.com/nodrognaes/calc" target="_blank"><img className="proj-gh" src={ghlogo} alt="github icon" width="30" height="30" /></a>
+                    </figure>
+                    <figure className="card" id="proj7">
+                        <a href="https://nodrognaes.github.io/ColmarAcademy/" target="_blank"><img className="proj-ss" src={colmar} alt="Colmar" /></a>
+                        <h3>Colmar Academy (layout demo)</h3>
+                        <a href="https://github.com/nodrognaes/ColmarAcademy" target="_blank"><img className="proj-gh" src={ghlogo} alt="github icon" width="30" height="30" /></a>
                     </figure>
                     <figure className="card" id="proj8">
                         <a href="https://nodrognaes.github.io/TortoiseshellOptics/" target="_blank"><img className="proj-ss" src={torta} alt="Tortoiseshell Optics" /></a>
